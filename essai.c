@@ -21,6 +21,7 @@ int longueurschaine(const char chaine[])
     while(chaine[compteur] != '\0')
     {
         compteur++;
+	printf("le compteur est à %d", compteur);
     }
     return compteur;
 }
