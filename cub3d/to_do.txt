@@ -1,0 +1,32 @@
+//parsing de la carte a refaire avec nouvel algorithme  DONE !
+//fuites de memoire ++++ DONE !
+taille max ecran (sur macbook air : 2560 x 1600, sur ecran ecole 2560 x 1440)
+		a verifier, mis dans le cube.h
+
+//partie graphique a relier DONE
+
+//textures DONE (voir pour optimiser le balayage au moment du chargement des textures)
+	semble en fait OK
+
+sprites DONE a accelerer
+
+//gestion partie graphique DONE
+
+// il y a un t_image en trop c'est le bazar, pour l'image a passer sur l,ecran
+
+//gestion mouvements (collision N et S pas OK)
+
+// sauvegarde (comprendre bitmap)
+
+comprendre gestion des images, comprendre sync
+
+gestion memoire des sprites et surtt free memoire des sprites
+gestion des erreurs et free
+
+pfouou je crois que c'est tout !!!!
+
+et ben non il y a la norminette !!
+
+et la correction !!
+
+et le makefile !!
