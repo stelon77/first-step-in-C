@@ -1,0 +1,13 @@
+version 2.0.1
+
+corrections
+-leaks dans ft_split corrigee
+-protection ft_strlen
+
+fonctions ajoutees a la lib
+- get next line (get_next_line.c et get_next_line_utils.c)
+- ft_putnbr_base
+- ft_itoa_base
+-ft_itoa_base_long
+-ft_isspace(en fait is whitespace)
+-ft_isinstring

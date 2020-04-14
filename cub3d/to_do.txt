@@ -1,32 +1,65 @@
-//parsing de la carte a refaire avec nouvel algorithme  DONE !
-//fuites de memoire ++++ DONE !
+
 taille max ecran (sur macbook air : 2560 x 1600, sur ecran ecole 2560 x 1440)
 		a verifier, mis dans le cube.h
 
-//partie graphique a relier DONE
+passage sous linux (touches et eventuellement mlx....)
+et la correction !!
 
-//textures DONE (voir pour optimiser le balayage au moment du chargement des textures)
+OK proteger fonctions de dessin
+OK drawstarty = 224, screen.y = 480, spriteheight = 31
+
+
+OK sprites
+
+OK gestion erreurs partie graphique
+OK et sortie correcte
+OK gestion memoire des sprites et surtt free memoire des sprites
+
+OK  parsing de la carte a refaire avec nouvel algorithme  DONE !
+OK  fuites de memoire ++++  meme en cas d'erreur DONE !
+
+OK partie graphique a relier DONE
+
+OK textures DONE (voir pour optimiser le balayage au moment du chargement des textures)
 	semble en fait OK
 
-sprites DONE a accelerer
+OK gestion mouvements
 
-//gestion partie graphique DONE
-
-// il y a un t_image en trop c'est le bazar, pour l'image a passer sur l,ecran
-
-//gestion mouvements (collision N et S pas OK)
-
-// sauvegarde (comprendre bitmap)
-
-comprendre gestion des images, comprendre sync
-
-gestion memoire des sprites et surtt free memoire des sprites
-gestion des erreurs et free
-
-pfouou je crois que c'est tout !!!!
+OK sauvegarde (comprendre bitmap)
 
 et ben non il y a la norminette !!
 
-et la correction !!
+OK	cub3d.h
+OK	check_file.c \
+OK	check_map.c \
+OK	cub3d.c \
+OK	errors.c \
+OK	floor_and_ceiling.c \
+OK	graphic_part_1.c \
+OK	graphic_part_2.c \
+OK	keys.c \
+OK	let_s_play.c \
+OK	map.c \
+OK	move.c \
+OK	move2.c \
+OK	my_mlx_color_functions.c \
+OK	my_mlx_image_functions.c \
+OK	player_vectors_init.c \
+OK	read_line.c \
+OK	resolution.c \
+OK	save.c \
+OK	save2.c
+OK	sprite_texture.c \
+OK	sprite.c \
+OK	sprite2.c \
+OK	struct_gestion.c \
+OK	texture_image.c \
+OK	texture_image2.c \
+OK	wall_texture.c
 
-et le makefile !!
+
+
+OK le makefile DONE !!
+OK changer zobizobi
+OK nettoyer le fichier des detritus
+OK pas de leaks
